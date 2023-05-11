@@ -1,0 +1,103 @@
+
+<html>
+
+<head>
+    <link rel="StyleSheet" href="style.css" type="text/css" media="all">
+    <title>NeuralMD</title>
+    <meta property="og:title" content="DSR: Dynamical Surface Representation as Implicit Neural Networks for Protein">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+<body>
+    <br>
+    <div class="center-div">
+        <span style="font-size:40px">DSR: Dynamical Surface Representation as Implicit Neural Networks for Protein</span>
+    </div>
+
+    <br>
+
+    <br>
+
+
+    <br>
+    <table align="center" width="600px">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div">
+                        <a href="#"><img src="resources/images/overview.png" width="1000px"></a><br>
+                    </div>
+                    <div class="center-div">
+                            <span style="font-size:14px"><i>Overview of Our DSR.</i></span>
+                    </div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br><br>
+    <hr>
+    <div class="center-div">
+        <h1>Abstract</h1>
+    </div>
+    <p style="text-align:justify">
+        We propose a novel approach to modeling protein dynamics using an implicit neural representation model of protein surface in 3D + time domain. Our method utilizes the zero-level set of signed distance functions (SDFs) to represent protein surfaces, enabling temporally and spatially continuous representations of protein dynamics. Our experimental results demonstrate that our model accurately represents protein dynamic trajectories, and has the ability to interpolate and extrapolate in 3D + time domain. Importantly, our study is the first to introduce this method and the first to successfully model large protein dynamics. This approach offers a promising alternative to current methods, overcoming the limitations of first-principles-based and deep learning methods, and provides a more scalable and efficient approach to modeling protein dynamics. Additionally, our surface representation approach simplifies calculations and allows for the identification of movement trends and amplitudes of protein domains, making it a valuable tool for protein dynamics research. Codes are in the supplementary material, and we have an anonymous project webpage that shows some video results, <a href="https://anonymouswk.github.io/DSR">https://anonymouswk.github.io/DSR</a>.
+    </p>
+    <br><br>
+
+
+    <hr>
+    <div class="center-div">
+        <h1 id="paper">Paper and Code</h1>
+    </div>
+    <table align="center" width="600px">
+
+        <tbody>
+            <tr>
+                <td>
+                    <img class="layered-paper-big" style="height:175px" src="resources/images/page1.png">
+                </td>
+                <td>
+                    <span style="font-size:14pt">Anonymous Author(s)</span>
+                    <br><br>
+                    <b><span style="display:inline-block;width:600px;font-size:14pt">Implicit Neural Representation for Protein Molecular Dynamic Shapes</span></b>
+                    <br><br>
+                    <span style="font-size:14pt">Under review</span>
+                    <br><br>
+                    <span style="font-size:14pt">To be published</span>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+
+    <hr>
+    <div class="video-row">
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/GPCR_gt_2000.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">GPCR ground truth</div>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/GPCR_pred.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">GPCR prediction</div>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/GPCR_compare.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">GPCR comparison</div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
